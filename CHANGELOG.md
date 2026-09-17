@@ -7,7 +7,7 @@
 - **🎉 ColorOS 16 官方支持（上游整合）**：自动识别 ROM——小米 HyperOS/MIUI 写小米笔记待办
   （行为与 v2.6.1 逐字节一致），ColorOS 16 写**日历「待办」**（`tasks.db` Tasks 表，
   完成态 = `finish_time`）；基于社区开发者
-  [Vv-Ww](https://github.com/Vv-Ww) 的 [ColorOS 二改版](https://github.com/Vv-Ww/pickup-code-grabber-coloros)
+  [VWV2005](https://github.com/VWV2005) 的 [ColorOS 二改版](https://github.com/VWV2005/pickup-code-grabber-coloros)
   （MIT）整合，逆向侦察与端到端验证记录见
   [docs/17-coloros-adaptation.md](docs/17-coloros-adaptation.md)；
 - **🎯 写入目标可手动切换**：设置页新增「写入目标」选择器——自动识别（默认）/
@@ -24,7 +24,7 @@
 - **Manifest**：新增 `<queries>` 包可见性声明（com.coloros.note / com.miui.notes，
   Android 11+ 后端探测需要）；模块描述更新为多 ROM 表述；
 - **兼容性**：小米侧为代码级等价保留（同版本真机回归待补），ColorOS 侧实测一加 9 Pro；
-- 鸣谢：[Vv-Ww](https://github.com/Vv-Ww) 的 ColorOS 16 适配工作（二改声明规范、
+- 鸣谢：[VWV2005](https://github.com/VWV2005) 的 ColorOS 16 适配工作（二改声明规范、
   MIT 协议保留，欢迎社区继续这样玩）。
 
 ## [2.6.1] - 2026-09-08 · 提取引擎 v3（语料驱动重构）
